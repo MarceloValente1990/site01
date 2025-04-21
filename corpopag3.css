@@ -1,0 +1,60 @@
+.corpopag3{
+    position: relative;
+    font-family: "Jura", sans-serif; 
+    background-image: url(Imagens/pexels-lureofadventure-28365967\ 2.png);
+    background-size: 100% 100%;
+    z-index: 0;
+}
+.corpopag3::before{
+    content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+#rowcorpo3{
+    position: relative;
+    padding: 3%;
+    z-index: 2;
+}
+.textopag3{
+    font-size: 15px;
+    margin: 0px;
+    text-align:justify;
+    padding-right: 3%;
+    font-weight: bolder;
+}
+.imagemcorpopag3{
+    border-radius: 35px;
+    width: 680px;
+    height: 367px;
+    margin-top: 3%;
+
+}
+#letrapag3{
+    font-size: 30px;
+}
+#infopag3{
+    text-decoration: none;
+    color: rgba(30, 30, 30, 1);
+    font-size: 25px;
+    background-color: rgba(104, 105, 49, 1);
+    border-radius: 15px;
+    margin: 4% 26%;
+    padding: 3%;
+    font-weight: bolder;
+}
+.colcorpopag3{
+    border-radius: 35px;
+    background-color: rgba(217, 217, 217, 1);
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    height: 1100px;
+    margin: 2%;
+}
+.itemlist{
+    margin-left: 10%;
+}

@@ -1,0 +1,36 @@
+.nav1{
+    position: relative;
+    width: 100%;
+    background-image: url(Imagens/pexels-alex-andrews-271121-1203808\ 2.png);
+    background-size: cover;
+    z-index: 0;
+}
+.nav1::before{
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 30, 30, 0.81);
+    z-index: 1;
+}
+.colnav{
+    padding-top: 2%;
+    position: relative;
+    display: flex;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-weight: bold;
+    z-index: 2;
+}
+#paragrafo{
+    padding-right:6%;
+}
+#seta2{
+    position: absolute;
+    display: flex;
+    left: 1%;
+    top: 2%;
+    z-index: 2;
+}
