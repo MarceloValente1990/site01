@@ -24,13 +24,13 @@
 </head>
 <body>
 <!-- nav -->
-    <div class="container-fluid text-center nav1 imagem-bg">
-      <div class="row">           
-        <P><a href="index.html"><img src="Imagens/lines-leaning-solid 1 branca.png" class="img-fluid" alt="" id="seta2"></a></P>
+  <div class="container-fluid text-center nav1 imagem-bg">
+    <div class="row">           
+          <P><a href="index.html"><img src="Imagens/lines-leaning-solid 1 branca.png" class="img-fluid" alt="" id="seta2"></a></P>
         <nav class="navbar navbar-expand-lg bg-transparent">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="z-index: 2;">
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="z-index: 5;">
                 <span class="navbar-toggler-icon" style="background-color: rgba(255, 255, 255, 1);"></span>
               </button>
           
@@ -51,7 +51,7 @@
                 </ul>
               </div>
             </div>
-          </nav>
+        </nav>
     </div>
 <!-- corpo -->
         <div class="container-fluid">
@@ -59,25 +59,40 @@
                 <div class="col-4 col-sm-4 d-flex flex-column colcorpopag3">
                     <div class="mb-3 text-start formulario">
                         <label for="disabledSelect" class="form-label">Escolha o país</label>
-                        <select id="disabledSelect" class="form-select">
+                        <select id="countriesDropdown" class="form-select">
                         <option selected>País</option>
                         <option value="1">Portugal</option>
                         <option value="2">Irlanda</option>
                         <option value="3">Áustria</option>
                         </select>
                         <label for="disabledSelect" class="form-label">Escolha a cidade</label>
-                        <select id="disabledSelect" class="form-select">
+                        <select id="citiesDropdown" class="form-select">
                         <option selected>Cidade</option>
-                        <option value="1">Porto</option>
+                        <option value="1">Porto</option> 
                         <option value="2">Dublin</option>
                         <option value="3">Salzburg</option>
                         </select>
                     </div> 
-                    <button type="button" class="btn btn-primary" id="infopag3">Ver</button>      
+                    <button type="button" class="btn btn-primary" id="infopag3" onclick="changeCountriesandCitys()">Ver</button>      
                 </div>
             </div>
-        </div>
     </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-..." crossorigin="anonymous"></script>~´
+<script>
+
+function changeCountriesandCitys () {
+  let country = document.getElementById("countriesDropdown");
+  let city = document.getElementById("citiesDropdown");
+  
+  if (country.value == 1 && city.value == 1){
+    window.location.href= "porto.html"
+  } else if (country.value == 2 && city.value == 2){
+    window.location.href= "dublin.html"
+  } else if (country.value == 3 && city.value == 3){
+    window.location.href= "salzburg.html"
+  }
+}
+</script>
 </body>
 </html>

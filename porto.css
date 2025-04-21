@@ -1,7 +1,7 @@
 #rowcorpo3{
     position: relative;
     padding: 3%;
-    z-index: 2;
+    z-index: 1;
 }
 #infopag3{
     text-decoration: none;
@@ -121,7 +121,7 @@
     }
     #email{
       overflow-wrap: break-word;
-      color: blue;
+      color: rgba(180, 155, 44, 0.25);
       text-decoration: underline;
     }
   

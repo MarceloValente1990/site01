@@ -25,37 +25,55 @@
 <body>
 <!-- nav -->
     <div class="container-fluid text-center nav1 imagem-bg">
-            <div class="row justify-content-end">           
-                <div class="col"><a href=""><img src="Imagens/lines-leaning-solid 1 branca.png" class="img-fluid" alt="" id="seta2"></a>
+        <div class="row">           
+            <p><a href="index.html"><img src="Imagens/lines-leaning-solid 1 branca.png" class="img-fluid" alt="" id="seta2"></a></p>
+          <nav class="navbar navbar-expand-lg bg-transparent">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="z-index: 7;">
+                  <span class="navbar-toggler-icon" style="background-color: rgba(255, 255, 255, 1);"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link row5" href="pag2.html">ACOMODAÇÃO</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link row5" href="locais.html">LOCAIS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link row5" href="#">BLOGS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link row5" href="contatos.html">CONTATOS</a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="col-6 col-sm-6 colnav" >
-                    <p id="paragrafo"><a href="" style="text-decoration: none; color:rgba(255, 255, 255, 1);">ACOMODAÇÃO</a></p>
-                    <p id="paragrafo"><a href="" style="text-decoration: none; color: rgba(255, 255, 255, 1);">LOCAIS</a></p>
-                    <p id="paragrafo"><a href="" style="text-decoration: none; color: rgba(255, 255, 255, 1);">BLOGS</a></p>
-                    <p id="paragrafo"><a href="" style="text-decoration: none; color: rgba(255, 255, 255, 1);">CONTATOS</a></p>
-                </div>
-            </div>
+              </div>
+          </nav>
+      </div>
 <!-- corpo -->
         <div class="container-fluid">
             <div class="row justify-content-around" id="rowcorpo3">
                 <div class="col-4 col-sm-4 d-flex flex-column colcorpopag3">
                     <div class="mb-3 text-start formulario">
                         <label for="disabledSelect" class="form-label">Escolha o país</label>
-                        <select id="disabledSelect" class="form-select">
+                        <select id="countriesDropdown" class="form-select">
                         <option selected>País</option>
                         <option value="1">Portugal</option>
                         <option value="2">Irlanda</option>
                         <option value="3">Áustria</option>
                         </select>
                         <label for="disabledSelect" class="form-label">Escolha a cidade</label>
-                        <select id="disabledSelect" class="form-select">
+                        <select id="citiesDropdown" class="form-select">
                         <option selected>Cidade</option>
                         <option value="1">Porto</option>
                         <option value="2">Dublin</option>
                         <option value="3">Salzburg</option>
                         </select>
                     </div>
-                    <button type="submit" class="btn btn-primary" id="infopag3">Ver</button>
+                    <button type="submit" class="btn btn-primary" id="infopag3" onclick="changeCountriesandCitys()">Ver</button>
                 </div>
                 <div class="col-4 col-sm-4 d-flex flex-column mapa">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d171513.9845378788!2d12.761229223899386!3d47.80265772531686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47769adda908d4b1%3A0xc1e183a1412af73d!2sSalzburgo%2C%20%C3%81ustria!5e0!3m2!1spt-PT!2spt!4v1745002258748!5m2!1spt-PT!2spt"width="100%" height="100%"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border-radius:10px;"></iframe>
@@ -69,5 +87,19 @@
             </div>
         </div>
     </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
+<script>
+
+  function changeCountriesandCitys () {
+    let country = document.getElementById("countriesDropdown");
+    let city = document.getElementById("citiesDropdown");
+    
+    if (country.value == 1 && city.value == 1){
+      window.location.href= "porto.html"
+    } else if (country.value == 2 && city.value == 2){
+      window.location.href= "dublin.html"
+    }
+  }
+</script>
 </body>
 </html>

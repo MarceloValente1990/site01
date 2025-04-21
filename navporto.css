@@ -1,4 +1,15 @@
-.nav1{
+.navbar-nav .nav-link {
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 1)!important;
+    font-family: "Josefin Slab", serif;
+  }
+  .navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Josefin Slab", serif;
+  }
+  .nav1{
     position: relative;
     width: 100%;
     background-image: url(Imagens/pexels-alex-andrews-271121-1203808\ 2.png);
@@ -24,9 +35,6 @@
     font-weight: bold;
     z-index: 2;
 }
-#paragrafo{
-    padding-right:6%;
-}
 #seta2{
     position: absolute;
     display: flex;
@@ -34,3 +42,66 @@
     top: 2%;
     z-index: 2;
 }
+.row5{
+    position: relative;
+    margin-top: 25px;
+    margin-left: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    z-index: 2;
+}
+@media (max-width: 991px) {
+    .navbar-nav .nav-link {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    .navbar-brand {
+      font-size: 24px;
+    }
+    .colnav {
+      font-size: 20px;
+      padding-top: 4%;
+    }
+  
+    #seta2 {
+      width: 30px;
+      top: 3%;
+      left: 90%;
+    }
+  
+    .row5 {
+      font-size: 20px;
+      margin-left: 5px;
+      margin-top: 15px;
+    }
+  }
+  @media (max-width: 572px) {
+    .navbar-nav .nav-link {
+      font-size: 18px;
+      text-align: center;
+      margin-top: 8px;
+    }
+
+    .navbar-brand {
+      font-size: 20px;
+    }
+    .colnav {
+      font-size: 18px;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    #seta2 {
+      width: 25px;
+      top: 2%;
+      left: 90%;
+    }
+    .row5 {
+      font-size: 16px;
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
