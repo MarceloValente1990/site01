@@ -2,12 +2,10 @@
     font-family: "Jura", sans-serif;
     color: rgba(0, 0, 0, 1);
     width: 100%;
-    height: 2000px;
     background-color: rgba(180, 155, 44, 0.25);
 }
 .rowcorpo2{
     padding: 3%;
-
 }
 .textopag2{
     font-size: 20px;
@@ -16,7 +14,6 @@
     border-radius: 35px;
     width: 533px;
     height: 288px;
-
 }
 #letra{
     font-size: 30px;
@@ -44,3 +41,34 @@
 .itemlist{
     margin-left: 10%;
 }
+@media (max-width: 991px){
+    .rowcorpo2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+      }
+    .textopag2 {
+      font-size: 18px;
+    }
+    #letra {
+      font-size: 26px;
+    }
+  }
+  @media (max-width: 576px) {
+    .imagemcorpopag2 {
+      width: 100%;
+      height: auto;
+    }
+    .textopag2 {
+      font-size: 16px;
+    }
+    #letra {
+      font-size: 22px;
+    }
+    #info {
+      font-size: 16px;
+    }
+    .itemlist {
+      margin-left: 5%;
+    }
+  }

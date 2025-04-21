@@ -58,3 +58,49 @@
 .itemlist{
     margin-left: 10%;
 }
+@media (max-width: 992px) {
+    .imagemcorpopag3 {
+      width: 100%;
+      height: auto;
+    }
+    .colcorpopag3 {
+      width: 100%;
+      height: auto;
+      margin: 5% auto;
+    }
+    .textopag3 {
+      font-size: 14px;
+      padding: 0 5%;
+    }
+    #letrapag3 {
+      font-size: 24px;
+    }
+    #infopag3 {
+      font-size: 20px;
+      margin: 5% auto;
+      padding: 4%;
+      display: block;
+      width: 70%;
+    }
+    .itemlist {
+      margin-left: 5%;
+    }
+  }
+  @media (max-width: 576px) {
+    .textopag3 {
+      font-size: 13px;
+    }
+    #letrapag3 {
+      font-size: 20px;
+    }
+    #infopag3 {
+      font-size: 18px;
+      width: 80%;
+    }
+    .imagemcorpopag3 {
+      border-radius: 20px;
+    }
+    .colcorpopag3 {
+      padding: 5%;
+    }
+  }

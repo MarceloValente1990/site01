@@ -1,4 +1,4 @@
-#rowcorpo3{
+.rowcorpo3{
     position: relative;
     padding: 3%;
     z-index: 2;
@@ -9,7 +9,7 @@
     background-color: rgba(0, 0, 0, 1);
     font-size: 25px;
     border-radius: 40px;
-    margin: 0% 10%;
+    margin: 0% 10% 10% 10%;
     font-weight: bolder;
     border: solid;
     transition: 0.1s;
@@ -24,14 +24,13 @@
     font-size: 20px;
     border-radius: 35px;
     background-color: rgba(0, 0, 0, 1);  
-    height: 580px;
+   
     margin-left: 6%;
     color: rgba(255, 255, 255, 1);
 }
 .formulario{
     padding: 25% 10% 5% 10%;
     border-radius: 15px;
-   
 }
 .opcao{
     font-family: "Jura", sans-serif; 
@@ -54,5 +53,91 @@
     font-size: 20px;
     padding-left: 10%;
     margin-bottom: 0%;
+}
+#text{
+    max-width: 100%;
+    border-radius: 15px;
+}
+@media (max-width: 991px) {
+    .rowcorpo3{
+        flex-direction: column;
+    }
+    
+    .colcorpopag3 {
+        width: 90%;
+        margin: 5% auto;
+        font-size: 18px;
+    }
+
+    .formulario {
+        padding: 15% 8% 5% 8%;
+    }
+
+    #infopag3 {
+        font-size: 22px;
+        padding: 12px 20px;
+        margin: 5% auto 20% auto;
+        display: block;
+    }
+
+    .opcao {
+        font-size: 32px;
+        padding: 8%;
+    }
+
+    .textopag4 {
+        font-size: 20px;
+        text-align: center;
+        order: -1;
+        padding-bottom: 5%;
+        margin-left: 25%;
+      
+    }
+
+    #living {
+        font-size: 22px;
+        padding-left: 5%;
+    }
+
+    #ruaDaAlegria {
+        font-size: 18px;
+        padding-left: 5%;
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .colcorpopag3 {
+        width: 95%;
+        font-size: 16px;
+        padding: 5%;
+    }
+    .formulario {
+        padding: 10% 5% 5% 5%;
+    }
+    #infopag3 {
+        font-size: 18px;
+        padding: 10px 16px;
+        border-radius: 30px;
+        margin: 8% auto;
+    }
+    .opcao {
+        font-size: 24px;
+        padding: 6%;
+        text-align: center;
+    }
+    .textopag4 {
+        font-size: 18px;
+        padding-top: 5%;
+        text-align: center;
+    }
+    #living {
+        font-size: 18px;
+        padding-left: 5%;
+    }
+    #ruaDaAlegria {
+        font-size: 16px;
+        padding-left: 5%;
+        text-align: center;
+    }
 }
 

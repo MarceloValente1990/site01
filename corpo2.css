@@ -39,3 +39,46 @@
     bottom: 20px;
     right: 15px;
 }
+@media (max-width: 992px) {
+    .corpo2 {
+      flex-direction: column;
+      height: auto;
+    }
+    .kombe {
+      height: 300px;
+      background-size: cover;
+    }
+    #descubra1 {
+      font-size: 24px;
+      padding: 5% 10% 3% 10%;
+    }
+    #descubra2 {
+      font-size: 20px;
+      margin: 0 25%;
+      padding: 1.5% 0 30px;
+    }
+    #seta {
+      width: 40px;
+      right: 10px;
+      bottom: 10px;
+    }
+  }
+  @media (max-width: 576px) {
+    .kombe {
+      height: 200px;
+    }
+    #descubra1 {
+      font-size: 20px;
+      padding: 10% 8%;
+    }
+    #descubra2 {
+      font-size: 18px;
+      margin: 0 20% 30px;
+      padding: 1rem 0;
+    }
+    #seta {
+      width: 30px;
+      right: 5px;
+      bottom: 5px;
+    }
+  }
