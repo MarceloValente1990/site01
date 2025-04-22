@@ -59,85 +59,77 @@
     border-radius: 15px;
 }
 @media (max-width: 991px) {
-    .rowcorpo3{
-        flex-direction: column;
-    }
-    
-    .colcorpopag3 {
-        width: 90%;
-        margin: 5% auto;
-        font-size: 18px;
-    }
-
-    .formulario {
-        padding: 15% 8% 5% 8%;
-    }
-
-    #infopag3 {
-        font-size: 22px;
-        padding: 12px 20px;
-        margin: 5% auto 20% auto;
-        display: block;
-    }
-
-    .opcao {
-        font-size: 32px;
-        padding: 8%;
-    }
-
-    .textopag4 {
-        font-size: 20px;
-        text-align: center;
+    .textopag4{
         order: -1;
-        padding-bottom: 5%;
-        margin-left: 25%;
-      
-    }
-
-    #living {
-        font-size: 22px;
-        padding-left: 5%;
-    }
-
-    #ruaDaAlegria {
-        font-size: 18px;
-        padding-left: 5%;
-        text-align: center;
-    }
-}
-@media (max-width: 576px) {
-    .colcorpopag3 {
-        width: 95%;
-        font-size: 16px;
-        padding: 5%;
-    }
-    .formulario {
-        padding: 10% 5% 5% 5%;
+        margin-bottom: 5%;
     }
     #infopag3 {
-        font-size: 18px;
-        padding: 10px 16px;
-        border-radius: 30px;
-        margin: 8% auto;
+      font-size: 22px;
+      margin: 5% 8%;
+      padding: 12px;
+      text-align: center;
+    }
+    .colcorpopag3 {
+      font-size: 18px;
+      margin-left: 3%;
+      padding: 4%;
+      text-align: justify;
+    }
+    .formulario {
+      padding: 15% 5% 5% 5%;
     }
     .opcao {
-        font-size: 24px;
-        padding: 6%;
-        text-align: center;
-    }
-    .textopag4 {
-        font-size: 18px;
-        padding-top: 5%;
-        text-align: center;
+      font-size: 32px;
+      padding: 8%;
+      text-align: center;
     }
     #living {
-        font-size: 18px;
-        padding-left: 5%;
+      font-size: 20px;
+      padding: 3% 5%;
+      text-align: center;
     }
     #ruaDaAlegria {
-        font-size: 16px;
-        padding-left: 5%;
-        text-align: center;
+      font-size: 18px;
+      text-align: center;
+      padding: 0;
+      margin-top: 10px;
     }
-}
-
+    #text {
+      width: 100%;
+    }
+  }
+  @media (max-width: 576px) {
+    #infopag3 {
+      font-size: 18px;
+      margin: 5% auto;
+      padding: 10px;
+      width: 90%;
+      text-align: center;
+    }
+    .colcorpopag3 {
+      font-size: 16px;
+      margin: 0;
+      padding: 5%;
+      text-align: left;
+    }
+    .formulario {
+      padding: 10% 5%;
+    }
+    .opcao {
+      font-size: 24px;
+      padding: 6%;
+    }
+    #living {
+      font-size: 16px;
+      padding: 4% 5%;
+      text-align: center;
+    }
+    #ruaDaAlegria {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 8px;
+    }
+    #text {
+      width: 100%;
+    }
+  }

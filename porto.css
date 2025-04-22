@@ -81,8 +81,8 @@
       font-size: 20px;
       padding: 5%;
       order: -1;
-      margin-left: 33%;
-      margin-bottom: 5%;
+      margin: 5% auto 5% auto;
+     
     }
   
     .formulario {
@@ -96,7 +96,7 @@
   
     .endereco {
       position: relative;
-      margin: 0% auto;
+      margin: 5% auto 5% auto;
       width: 100%;
       top: auto;
       left: auto;
@@ -108,19 +108,19 @@
     .mapa {
       height: 250px;
       order: 1;
-      margin-bottom: 5%;
-      margin-left: 33%;
+      margin: 5% auto 5% auto;
+      
 
     }
     #living,
     #ruaDaAlegria,
     #cep,
     #email {
-      font-size: 18px;
+      font-size: 25px;
       padding-left: 5%;
+      text-align: center;
     }
     #email{
-      overflow-wrap: break-word;
       color: blue;
       text-decoration: underline;
     }
