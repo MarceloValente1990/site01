@@ -63,17 +63,19 @@
   display: flex;
   left: 1%;
   top: 2%;
-  z-index: 2;
+  
 }
 @media (max-width: 992px) {
     .imagemcorpopag3 {
       width: 100%;
       height: auto;
     }
+    
     .colcorpopag3 {
       width: 100%;
       height: auto;
-      margin: 5% auto;
+      margin: 10% auto;
+      
     }
     .textopag3 {
       font-size: 14px;
@@ -108,6 +110,6 @@
       border-radius: 20px;
     }
     .colcorpopag3 {
-      padding: 5%;
+      margin-top: 20% !important;
     }
   }
