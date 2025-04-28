@@ -1,0 +1,75 @@
+.corpo4{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 530px;
+    background-color: black;
+}
+.celular{
+    width: 100%;
+    height: 530px;
+    background-image: url(Imagens/corpo4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+#celular2{
+    position: absolute;
+    left: 500px;
+    top: 240px;
+    text-decoration: none;
+    color: rgb(243, 239, 239);
+    border: solid rgba(0, 0, 0, 1) 3px;
+    background-color: black;
+    border-radius:35px;
+    font-size: 25px;
+    padding: 1% 7%; 
+}
+#seta3{
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}
+@media (max-width: 992px) {
+    #celular2 {
+      left: 50%;
+      top: 220px;
+      transform: translateX(-50%);
+      font-size: 20px;
+      padding: 1% 6%;
+    }
+    #seta3 {
+      width: 40px;
+      bottom: 15px;
+      right: 10px;
+    }
+    .celular {
+      height: 450px;
+      background-size: cover;
+    }
+    .corpo4 {
+      height: 450px;
+    }
+  }
+  @media (max-width: 576px) {
+    #celular2 {
+      left: 50%;
+      top: 180px;
+      transform: translateX(-50%);
+      font-size: 18px;
+      padding: 2% 5%;
+    }
+    #seta3 {
+      width: 30px;
+      bottom: 10px;
+      right: 5px;
+    }
+    .celular {
+      height: 300px;
+    }
+    .corpo4 {
+      height: 300px;
+    }
+  }

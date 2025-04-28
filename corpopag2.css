@@ -1,0 +1,75 @@
+.corpopag2{
+    font-family: "Jura", sans-serif;
+    color: rgba(0, 0, 0, 1);
+    width: 100%;
+    background-color: rgba(180, 155, 44, 0.25);
+}
+.rowcorpo2{
+    padding: 3%;
+}
+.textopag2{
+    font-size: 20px;
+}
+.imagemcorpopag2{
+    border-radius: 35px;
+    width: 533px;
+    height: 288px;
+}
+#letra{
+    font-size: 30px;
+}
+#info{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+}
+.colcorpo2, .colcorpo4, .colcorpo6{
+    border-radius: 35px;
+    background-color: rgba(217, 217, 217, 1);
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.3);
+    width: 574px;
+    height: 600px;
+    margin: 2%;
+}
+.colcorpo3, .colcorpo5, .colcorpo7{
+    border-radius: 35px;
+    background-color: rgba(217, 217, 217, 1);
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.3);
+    width: 574px;
+    height: 600px;
+    margin: 2%;
+}
+.itemlist{
+    margin-left: 10%;
+}
+@media (max-width: 991px){
+    .rowcorpo2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+      }
+    .textopag2 {
+      font-size: 18px;
+    }
+    #letra {
+      font-size: 26px;
+    }
+  }
+  @media (max-width: 576px) {
+    .imagemcorpopag2 {
+      width: 100%;
+      height: auto;
+    }
+    .textopag2 {
+      font-size: 16px;
+    }
+    #letra {
+      font-size: 22px;
+    }
+    #info {
+      font-size: 16px;
+    }
+    .itemlist {
+      margin-left: 5%;
+    }
+  }

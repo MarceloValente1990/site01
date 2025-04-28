@@ -1,0 +1,52 @@
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 1);
+}
+.living{
+    color: rgba(255, 255, 255, 1);
+    font-family: "Jura", sans-serif;
+    font-size: 30px;
+}
+.power{
+    color: rgba(255, 255, 255, 1);
+    font-family: "Jura", sans-serif;
+    font-size: 15px;
+}
+.icone{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 57px;
+    padding-left: 1%;
+}
+@media (max-width: 992px) {
+    .living {
+      font-size: 24px;
+    }
+    .power {
+      font-size: 13px;
+    }
+    .icone {
+      font-size: 45px;
+      padding-left: 0.8%;
+    }
+  }
+  @media (max-width: 576px) {
+    .living {
+      font-size: 20px;
+      text-align: center;
+    }
+    .power {
+      font-size: 12px;
+      text-align: center;
+    }
+    .icone {
+      font-size: 35px;
+      padding-left: 0.5%;
+    }
+    .rodape {
+      padding: 15px 10px;
+    }
+  }
