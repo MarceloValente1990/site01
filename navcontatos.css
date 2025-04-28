@@ -1,0 +1,117 @@
+.navbar-nav .nav-link {
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 1)!important;
+    font-family: "Josefin Slab", serif;
+  }
+  .navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Josefin Slab", serif;
+  }
+  .nav1{
+    position: relative;
+    width: 100%;
+    background-image: url(Imagens/pexels-jeremy-bishop-1260133-20146347\ 2.png);
+    background-size: cover;
+    z-index: 0;
+}
+.nav1::before{
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 30, 30, 0.81);
+    z-index: 1;
+}
+.colnav{
+    padding-top: 2%;
+    position: relative;
+    display: flex;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-weight: bold;
+    z-index: 2;
+}
+#paragrafo{
+    padding-right:6%;
+}
+#seta2{
+    position: absolute;
+    display: flex;
+    left: 1%;
+    top: 2%;
+    z-index: 2;
+}
+.row5{
+    position: relative;
+    margin-top: 25px;
+    margin-left: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    z-index: 2;
+}
+@media (max-width: 991px) {
+    .navbar-nav .nav-link {
+      font-size: 20px;
+      text-align: center;
+      padding: 10px 0;
+    }
+  
+    .navbar-brand {
+      font-size: 24px;
+    }
+  
+    .colnav {
+      font-size: 20px;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    #seta2 {
+      top: 2%;
+      left: 3%;
+      width: 25px;
+      margin-left: 90%;
+    }
+  
+    .row5 {
+      margin-top: 15px;
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+  
+  /* Ajustes para telas menores que 572px (Celular) */
+  @media (max-width: 572px) {
+    .navbar-nav .nav-link {
+      font-size: 18px;
+    }
+  
+    .navbar-brand {
+      font-size: 20px;
+    }
+  
+    .colnav {
+      font-size: 18px;
+    }
+  
+    #seta2 {
+      top: 2%;
+      left: 5%;
+      margin-left: 80%;
+    }
+  
+    .row5 {
+      font-size: 18px;
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+  
