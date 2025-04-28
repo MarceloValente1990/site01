@@ -47,7 +47,7 @@
     .kombe {
       height: 300px;
       background-size: cover;
-      width: 100% !important;
+      width: 100%;
     }
     #descubra1 {
       font-size: 24px;
@@ -67,7 +67,6 @@
   @media (max-width: 576px) {
     .kombe {
       height: 200px;
-      width: 100% !important;
     }
     #descubra1 {
       font-size: 20px;
